@@ -1,13 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import FormularioCurriculo from '@/components/FormularioCurriculo.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'FormularioCurriculo',
+    component: FormularioCurriculo
   },
-
 ]
 
 const router = createRouter({
